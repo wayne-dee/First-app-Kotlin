@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658771090523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="if statements">
+      <created>1658771682308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658771682308</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +97,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Kotlin's support mutability and immutability" />
     <MESSAGE value="string templates in Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="string templates in Kotlin" />
+    <MESSAGE value="if statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="if statements" />
   </component>
 </project>

@@ -1,14 +1,14 @@
 fun main() {
     // no need to use the new keyword
-    var q  = Question()
-    q.answer = "34"
+    var q:Question?  = Question()
+    q?.answer = "34"
 //    q.name = "James"
-    q.display()
+    q?.display()
     // use ${} for compound variables
-    println("You said your answer was ${q.answer}")
+    println("You said your answer was ${q?.answer}")
 
     // if statements OR we can use the other syntax
-    val message = if (q.answer == q.correct) {
+    val message = if (q?.answer == q?.correct) {
         "You are correct"
     }else {
         "Try again"
@@ -16,7 +16,7 @@ fun main() {
     println(message)
 }
 class Question {
-    var answer = ""
+    var answer:String? = null
     var correct = "45"
     val name = "Douglas"
 
