@@ -1,8 +1,11 @@
 fun main() {
-    var x = 4
-    while (x < 8) {
-        println("Number is: $x")
-        x +=1
-    }
-    println(x)
+    // no need to use the new keyword
+    var q  = Question()
+    q.answer = "34"
+//    q.name = "James"
+
+}
+class Question {
+    var answer = ""
+    val name = "Douglas"
 }
