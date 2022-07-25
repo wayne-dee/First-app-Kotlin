@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658772158899</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="using when statements in Kotlin">
+      <created>1658773203287</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658773203287</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +114,7 @@
     <MESSAGE value="string templates in Kotlin" />
     <MESSAGE value="if statements" />
     <MESSAGE value="handling null values" />
-    <option name="LAST_COMMIT_MESSAGE" value="handling null values" />
+    <MESSAGE value="using when statements in Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="using when statements in Kotlin" />
   </component>
 </project>

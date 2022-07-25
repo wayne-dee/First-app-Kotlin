@@ -14,6 +14,13 @@ fun main() {
         "Try again"
     }
     println(message)
+
+    val number:Int? = try {
+        Integer.parseInt(q?.answer)
+    } catch (e: NumberFormatException) {
+        null
+    }
+    println("Number is $number")
 }
 class Question {
     var answer:String? = null
