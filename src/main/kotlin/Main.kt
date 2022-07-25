@@ -1,7 +1,7 @@
 fun main() {
     // no need to use the new keyword
     var q:Question?  = Question()
-    q?.answer = "34"
+    q?.answer = "45"
 //    q.name = "James"
     q?.display()
     // use ${} for compound variables
@@ -23,5 +23,11 @@ class Question {
     fun display() {
         // $ only for single variables
         println("You said $answer")
+    }
+    fun printResult() {
+        when (answer) {
+            correct -> print("you are correct")
+            else -> print("Try again")
+        }
     }
 }
