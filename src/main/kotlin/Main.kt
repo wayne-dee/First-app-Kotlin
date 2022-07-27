@@ -21,6 +21,23 @@ fun main() {
         null
     }
     println("Number is $number")
+
+    // loops
+    // while and do while same as javascript
+    var ages = listOf(1, 2, 3)
+    for (i in ages) {
+        println(i)
+    }
+    var num = 1..10
+    for (i in num) {
+        println(i)
+    }
+    for (i in 1..5){
+        println(i)
+    }
+    for (i in 'a'..'z'){
+        println(i)
+    }
 }
 class Question {
     var answer:String? = null
