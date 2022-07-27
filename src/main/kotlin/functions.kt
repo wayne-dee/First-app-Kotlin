@@ -1,5 +1,5 @@
  fun main() {
- println("Hello, world")
+ println(display("Hello, world"))
  }
  fun display(message: String): Boolean {
      println(message)
